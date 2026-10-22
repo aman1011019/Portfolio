@@ -1,0 +1,100 @@
+/* Hallmark · pre-emit critique: P5 H5 E4 S5 R5 V4 · genre: atmospheric · macrostructure: Marquee Hero · theme: studied-DNA (source: https://demo.codeandchill.store/portfolio/) · enrichment: supplied portrait · nav: N9 · footer: Ft5 */
+:root {
+  --color-paper: oklch(11.5% 0.006 55);
+  --color-paper-raised: oklch(16% 0.008 55);
+  --color-paper-high: oklch(20% 0.008 55);
+  --color-ink: oklch(95% 0.008 80);
+  --color-ink-soft: oklch(79% 0.01 75);
+  --color-ink-muted: oklch(66% 0.012 70);
+  --color-rule: oklch(30% 0.01 55);
+  --color-rule-soft: oklch(23% 0.009 55);
+  --color-accent: oklch(66% 0.2 34);
+  --color-accent-ink: oklch(12% 0.015 35);
+  --color-focus: oklch(78% 0.17 55);
+  --color-error: oklch(66% 0.2 28);
+  --color-success: oklch(76% 0.14 150);
+  --color-transparent: transparent;
+
+  --font-display: 'Archivo Variable', 'Arial Narrow', sans-serif;
+  --font-body: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  --text-xs: 0.72rem;
+  --text-sm: 0.86rem;
+  --text-base: 1rem;
+  --text-md: 1.25rem;
+  --text-lg: 1.5625rem;
+  --text-xl: 1.953rem;
+  --text-2xl: 2.441rem;
+  --text-3xl: 3.052rem;
+  --text-display: clamp(3rem, 9.8vw, 8rem);
+
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --content-max: 96rem;
+  --rule-hair: 1px;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.75rem;
+  --radius-full: 999px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  --shadow-soft: 0 1rem 3rem oklch(4% 0.004 55 / 0.35);
+  --shadow-text: 0 0.75rem 1.5rem oklch(3% 0.004 55 / 0.55);
+}
+
+/* Studied reference overrides for the faithful reconstruction. */
+:root {
+  --color-paper: oklch(11.5% 0.003 260);
+  --color-paper-raised: oklch(16% 0.004 260);
+  --color-paper-high: oklch(22% 0.004 260);
+  --color-ink: oklch(97% 0.004 85);
+  --color-ink-soft: oklch(82% 0.008 85);
+  --color-ink-muted: oklch(65% 0.008 85);
+  --color-rule: oklch(28% 0.006 260);
+  --color-rule-strong: oklch(42% 0.007 260);
+  --color-accent: oklch(91% 0.015 83);
+  --color-accent-ink: oklch(12% 0.004 260);
+  --color-focus: oklch(88% 0.04 85);
+  --color-error: oklch(67% 0.18 28);
+  --color-success: oklch(77% 0.18 155);
+  --color-white: oklch(99% 0.003 85);
+  --color-silver: oklch(86% 0.008 260);
+  --color-silver-dark: oklch(45% 0.018 260);
+  --color-glass: oklch(18% 0.004 260 / 0.72);
+  --color-project-1: oklch(18% 0.025 260);
+  --color-project-2: oklch(20% 0.018 160);
+  --color-project-3: oklch(18% 0.022 35);
+  --color-project-4: oklch(20% 0.018 305);
+  --color-project-line: oklch(43% 0.025 260);
+  --color-project-muted: oklch(70% 0.012 260);
+  --color-lab: oklch(14% 0.01 280);
+
+  --font-display: 'IBM Plex Sans', sans-serif;
+  --font-body: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+  --font-editorial: 'IBM Plex Sans', sans-serif;
+
+  --radius-xl: 1.5rem;
+}
